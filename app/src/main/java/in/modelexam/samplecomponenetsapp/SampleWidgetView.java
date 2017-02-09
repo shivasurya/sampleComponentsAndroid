@@ -140,7 +140,14 @@ public class SampleWidgetView extends AppCompatActivity
 
     public void edittext(View view)
     {
-        Toast.makeText(this,sampleEditTextView.getText(),Toast.LENGTH_LONG).show();
+        if(sampleEditTextView.getText().length() > 0) {
+            showDialog(sampleEditTextView.getText().toString());
+            Toast.makeText(this, sampleEditTextView.getText(), Toast.LENGTH_LONG).show();
+        }
+        else {
+            showDialog("No value in edittext");
+            Toast.makeText(this, "no value entered", Toast.LENGTH_LONG).show();
+        }
     }
 
     public void toggleClick(View view)
