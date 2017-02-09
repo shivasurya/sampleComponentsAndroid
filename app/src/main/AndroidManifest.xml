@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SampleAcitivity">
+        <activity android:name=".SampleWidgetView">
          </activity>
-        <activity android:name=".Multimedia" />
-        <activity android:name=".WebviewSample" />
+        <activity android:name=".SampleImageView" />
+        <activity android:name=".SampleWebView" />
         <activity android:name=".SampleVideoView" />
         <activity android:name=".SampleEditTextViews" />
         <activity android:name=".LaunchActivity">

@@ -15,7 +15,7 @@ public class LaunchActivity extends AppCompatActivity {
     }
 
     public void sampleActivity(View view) {
-        Intent intent = new Intent(this,SampleAcitivity.class);
+        Intent intent = new Intent(this,SampleWidgetView.class);
         startActivity(intent);
     }
 
@@ -25,7 +25,7 @@ public class LaunchActivity extends AppCompatActivity {
     }
 
     public void imageviewActivity(View view) {
-        Intent intent = new Intent(this,Multimedia.class);
+        Intent intent = new Intent(this,SampleImageView.class);
         startActivity(intent);
     }
 
@@ -35,7 +35,7 @@ public class LaunchActivity extends AppCompatActivity {
     }
 
     public void webviewActivity(View view) {
-        Intent intent = new Intent(this,WebviewSample.class);
+        Intent intent = new Intent(this,SampleWebView.class);
         startActivity(intent);
     }
 }
